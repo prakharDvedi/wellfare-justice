@@ -10,7 +10,12 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center">
+          <div className="flex items-center gap-3">
+            <img
+              src="/wellfare.svg"
+              alt="Wellfare Justice Logo"
+              className="h-10 w-auto"
+            />
             <span
               className={`${bebasNeue.className} text-white text-2xl font-bold`}
             >

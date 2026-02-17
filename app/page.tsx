@@ -1,6 +1,6 @@
 "use client";
 
-import { Bebas_Neue } from "next/font/google";
+import { Bebas_Neue, Oswald } from "next/font/google";
 import SmoothScroll from "@/components/SmoothScroll";
 import HeroBackground from "@/components/HeroBackground";
 import AboutSection from "@/components/AboutSection";
@@ -9,6 +9,11 @@ import ContactSection from "@/components/ContactSection";
 const bebasNeue = Bebas_Neue({
   weight: "400",
   subsets: ["latin"],
+});
+
+const oswald = Oswald({
+  subsets: ["latin"],
+  weight: "500",
 });
 
 export default function Home() {
@@ -34,6 +39,14 @@ export default function Home() {
               <p className="mt-8 text-3xl text-zinc-300 max-w-lg mx-auto font-sans tracking-wide animate-fade-up delay-500">
                 FOR CHALLENGING PEOPLE
               </p>
+
+              <div className="mt-16 animate-fade-up delay-700">
+                <span
+                  className={`${oswald.className} inline-block px-8 py-3 border-2 border-white/20 rounded-lg text-white text-xl tracking-widest uppercase bg-white/5 backdrop-blur-md shadow-2xl hover:bg-white/10 transition-all`}
+                >
+                  12A & 80G Approved
+                </span>
+              </div>
             </div>
           </section>
 
