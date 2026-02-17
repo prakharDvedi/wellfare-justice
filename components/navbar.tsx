@@ -7,7 +7,7 @@ const bebasNeue = Bebas_Neue({
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50">
+    <nav className="fixed top-0 left-0 w-full z-50 hidden md:flex">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
