@@ -23,21 +23,21 @@ export default function ContactSection() {
         </p>
 
         <a
-          href="mailto:contact@wellfarejustice.org"
+          href="mailto:karuaparna@gmail.com"
           className="text-white text-2xl hover:text-zinc-300 transition-colors border-b border-white pb-1"
         >
-          contact@wellfarejustice.org
+          karuaparna@gmail.com
         </a>
 
         <div className="flex gap-6 mt-8">
           <span className="text-zinc-600 uppercase tracking-widest text-sm">
-            Los Angeles
+            Varanasai
           </span>
           <span className="text-zinc-600 uppercase tracking-widest text-sm">
-            New York
+            Lucknow
           </span>
           <span className="text-zinc-600 uppercase tracking-widest text-sm">
-            London
+            Greater Noida
           </span>
         </div>
 
