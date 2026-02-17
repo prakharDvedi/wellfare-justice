@@ -26,6 +26,7 @@ export default function Navbar() {
             <a
               href="https://www.linkedin.com/company/wellfare-justice-for-challenging-people/"
               className={`${bebasNeue.className} hidden md:block text-white text-xl tracking-wide hover:text-zinc-300 transition-colors`}
+              target="blank"
             >
               LinkedIn
             </a>
