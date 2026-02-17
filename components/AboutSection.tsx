@@ -18,15 +18,23 @@ export default function AboutSection() {
           Our Mission
         </h2>
         <p className="text-zinc-400 text-lg md:text-2xl font-light leading-relaxed mb-6">
-          We advocate for the voiceless and challenge the systems that leave
-          them behind. Through dedicated action and unwavering commitment, we
-          strive to build a future where justice is not a privilege, but a
-          fundamental right for everyone.
+          We are dedicated to empowering underprivileged communities through two
+          core initiatives:
+          <strong className="text-zinc-300">
+            {" "}
+            supporting para-athletes
+          </strong>{" "}
+          in their journey to the Paralympics and providing{" "}
+          <strong className="text-zinc-300">
+            educational opportunities
+          </strong>{" "}
+          to children who lack access to quality learning.
         </p>
         <p className="text-zinc-500 text-lg md:text-2xl font-light leading-relaxed">
-          Founded on the belief that every individual deserves dignity, Wellfare
-          Justice works tirelessly to bridge the gap between policy and people.
-          We are more than an organization; we are a movement for change.
+          Through donation drives and community partnerships, we strive to break
+          barriers and create pathways for those who are often left behind.
+          Every contribution fuels dreams, builds futures, and champions the
+          spirit of resilience.
         </p>
       </div>
     </section>

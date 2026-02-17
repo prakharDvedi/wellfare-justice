@@ -29,6 +29,15 @@ export default function ContactSection() {
           karuaparna@gmail.com
         </a>
 
+        <a
+          href="tel:+919956679159"
+          className="text-white text-2xl hover:text-zinc-300 transition-colors border-b border-white pb-1"
+        >
+          +91 99566 79159
+        </a>
+
+        <p className="text-zinc-400 text-lg mt-2">Dr. Santosh Kumar</p>
+
         <div className="flex gap-6 mt-8">
           <span className="text-zinc-600 uppercase tracking-widest text-sm">
             Varanasai

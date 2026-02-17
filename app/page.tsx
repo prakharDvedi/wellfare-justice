@@ -5,6 +5,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 import HeroBackground from "@/components/HeroBackground";
 import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
+import GallerySection from "@/components/GallerySection";
 
 const bebasNeue = Bebas_Neue({
   weight: "400",
@@ -51,6 +52,7 @@ export default function Home() {
           </section>
 
           {/* Imported Content Sections */}
+          <GallerySection />
           <AboutSection />
           <ContactSection />
         </div>
