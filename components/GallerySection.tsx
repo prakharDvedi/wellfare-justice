@@ -10,7 +10,7 @@ export default function GallerySection() {
     if (!scrollContainer) return;
 
     let scrollPosition = 0;
-    const scrollSpeed = 0.3; // pixels per frame
+    const scrollSpeed = 0.6; // pixels per frame
 
     const scroll = () => {
       scrollPosition += scrollSpeed;

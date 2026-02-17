@@ -25,13 +25,13 @@ export default function Navbar() {
           <div className="flex items-center space-x-8">
             <a
               href="https://www.linkedin.com/company/wellfare-justice-for-challenging-people/"
-              className={`${bebasNeue.className} text-white text-xl tracking-wide hover:text-zinc-300 transition-colors`}
+              className={`${bebasNeue.className} hidden md:block text-white text-xl tracking-wide hover:text-zinc-300 transition-colors`}
             >
               LinkedIn
             </a>
             <a
               href="#about"
-              className={`${bebasNeue.className} text-white text-xl tracking-wide hover:text-zinc-300 transition-colors`}
+              className={`${bebasNeue.className} hidden md:block text-white text-xl tracking-wide hover:text-zinc-300 transition-colors`}
             >
               About
             </a>
