@@ -31,6 +31,12 @@ export default function Navbar() {
               LinkedIn
             </a>
             <a
+              href="#vision"
+              className={`${bebasNeue.className} hidden md:block text-white text-xl tracking-wide hover:text-zinc-300 transition-colors`}
+            >
+              Vision
+            </a>
+            <a
               href="#about"
               className={`${bebasNeue.className} hidden md:block text-white text-xl tracking-wide hover:text-zinc-300 transition-colors`}
             >

@@ -6,6 +6,7 @@ import HeroBackground from "@/components/HeroBackground";
 import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import GallerySection from "@/components/GallerySection";
+import VisionSection from "@/components/VisionSection";
 
 const bebasNeue = Bebas_Neue({
   weight: "400",
@@ -53,6 +54,7 @@ export default function Home() {
 
           {/* Imported Content Sections */}
           <GallerySection />
+          <VisionSection />
           <AboutSection />
           <ContactSection />
         </div>
