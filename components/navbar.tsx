@@ -37,6 +37,12 @@ export default function Navbar() {
               Vision
             </a>
             <a
+              href="#people"
+              className={`${bebasNeue.className} hidden md:block text-white text-xl tracking-wide hover:text-zinc-300 transition-colors`}
+            >
+              People
+            </a>
+            <a
               href="#about"
               className={`${bebasNeue.className} hidden md:block text-white text-xl tracking-wide hover:text-zinc-300 transition-colors`}
             >
