@@ -35,7 +35,7 @@ export default function HeroBackground() {
     >
       <img
         ref={imageRef}
-        src="/ngo_1.svg"
+        src="/galleryImages/img4.webp"
         alt="Background"
         className="w-full h-full object-cover opacity-30 transition-opacity duration-75 ease-linear will-change-opacity"
       />
