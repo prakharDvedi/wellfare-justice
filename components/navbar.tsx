@@ -19,7 +19,7 @@ export default function Navbar() {
             <span
               className={`${bebasNeue.className} text-white text-2xl font-bold`}
             >
-              Wellfare Justice
+              Welfare Justice
             </span>
           </div>
           <div className="flex items-center space-x-8">

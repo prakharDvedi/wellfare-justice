@@ -34,7 +34,7 @@ export default function Home() {
           <section className="min-h-screen flex items-center justify-center px-6">
             <div className={`${bebasNeue.className} text-center`}>
               <h1 className="text-8xl md:text-[10rem] font-bold text-white leading-none animate-fade-up delay-200">
-                Wellfare
+                Welfare
               </h1>
               <h1 className="text-8xl md:text-[10rem] font-bold text-zinc-400 leading-none animate-fade-up delay-300">
                 Justice

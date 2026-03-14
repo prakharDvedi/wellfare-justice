@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Wellfare Justice",
-  description: "Wellfare Justice for Challenging People",
+  title: "Welfare Justice",
+  description: "Welfare Justice for Challenging People",
 };
 
 export default function RootLayout({
